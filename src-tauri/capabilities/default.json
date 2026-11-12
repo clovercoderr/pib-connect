@@ -1,0 +1,16 @@
+{
+  "identifier": "default",
+  "description": "Default capabilities for PIB Connect",
+  "windows": ["main", "settings", "new-project"],
+  "permissions": [
+    "core:default",
+    "shell:allow-open",
+    "dialog:default",
+    "dialog:allow-open",
+    "dialog:allow-save",
+    "dialog:allow-message",
+    "fs:default",
+    "fs:allow-read-text-file",
+    "fs:allow-write-text-file"
+  ]
+}
